@@ -1,11 +1,3 @@
-/* fetch('pokemon.json')
-    .then(function(response) {
-        return response.json();
-    })
-    .then(function(data) {
-        displayPokemonCards(data)
-    }); */
-
 $(document).ready(function(){
 
     $.get("https://uyghur.ai/course/data/pokemon.json", function(data, status) {
